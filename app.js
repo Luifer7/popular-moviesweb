@@ -85,10 +85,11 @@ const  cargarPeliculas = async () => {
                     </ul>
                     
                      <div class="card-footer text-center">
-                      <button class="btn btn-success" type="button">Ver mas..</button>
-                     </div>                    
+                      <a class="btn btn-success ver" href="#${pelicula.title.slice(0,2)}" role="button" data-bs-toggle="collapse">Ver mas..
+                      </a>
+                      </div>
+                      <div class="collapse card-header" id="${pelicula.title.slice(0,2)}"><p>${pelicula.overview}</p> </div>
                     </div>
-                    
                     </br>
                   </div>
                     `
