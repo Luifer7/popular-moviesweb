@@ -80,7 +80,7 @@ const  cargarPeliculas = async () => {
                      
                     
                      <ul class="list-group list-group-flush">
-                       <li class="list-group-item bg-warning">${pelicula.title}</li>
+                       <li class="list-group-item bg-warning">${pelicula.title} <p>Nota: ${pelicula.vote_average}</p></li>
                        <li class="list-group-item text-muted bg-warning">${pelicula.genre_ids}</li>
                     </ul>
                     
